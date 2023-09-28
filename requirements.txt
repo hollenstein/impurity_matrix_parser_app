@@ -1,4 +1,4 @@
 ipywidgets==8.1.1
-pandas==2
+pandas==2.1.0
 numpy==1.25
 ipython==8.12.2
