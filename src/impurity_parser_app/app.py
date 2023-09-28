@@ -10,9 +10,54 @@ from .managers import InputManager, OutputManager
 from .process_vendor_matrix import parse_thermo_matrix, transform_into_diagonal_matrix
 
 EXAMPLE_INPUT = """
-TMTpro-126 126.127726 N/A N/A N/A N/A 100% 0.31% 9.09%
-(127C)
-0.02% 0.32%
+TMT6-126
+126
+126.127726
+0.0%
+0.0%
+100%
+8.3%
+0.3%
+TMT6-127
+127N
+127.124761
+0.0%
+0.1%
+100%
+7.8%
+0.1%
+TMT6-128
+128C
+128.134436
+0.0%
+1.5%
+100%
+6.2%
+0.2%
+TMT6-129
+129N
+129.131471
+0.0%
+1.5%
+100%
+5.7%
+0.1%
+TMT6-130
+130C
+130.141145
+0.0%
+3.1%
+100%
+3.6%
+0.0%
+TMT6-131
+131
+131.138180
+0.1%
+2.9%
+100%
+3.8%
+0.0%
 """.strip()
 
 
